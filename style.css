@@ -1,0 +1,291 @@
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ /* border: solid 1px darkred; */
+}
+body{
+    background: #192b36;
+}
+header{
+    background: url(https://1.bp.blogspot.com/-NS3kgjyKyuY/USjkAuO53bI/AAAAAAAA4Ew/vKnPUITCVZM/s1600/NGC2024-La-Nebulosa-de-la-Flama_Fotos-del-Espacio_Imagenes-del-Espacio.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+/* Navegador Superior */
+.nav li{
+    list-style: none;
+    position: static;
+    text-align: center;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+    scroll-behavior: auto;
+}
+.nav li a:hover{
+    color: wheat;
+    transition: .2s;
+    border: solid 2px wheat;
+    border-radius: 5px;
+}
+.nav li a{
+    margin-left: 20px;
+}
+/* Texto del Header */
+.titulo{
+    font-size: 60px;
+    color: white;
+    position: relative;
+    text-align: center;
+    transform:translateY(300px);
+    text-shadow: 0px 1px 15px rgb(0, 0, 0,.99);
+
+}
+/* Estructira base */
+section{
+    justify-content: center;
+}
+.Cap1{
+    width: 100%;
+    background: #192b36;
+    height: 100vh;
+    color: white;
+}
+.Cap1 h2{
+    position: relative;
+    text-align: right;
+    margin-right: 60px;
+    font-size: 40px;
+}
+.Cap2{
+    width: 100%;
+    background: #f3f6ee;
+    height: 100vh;
+}
+.Cap2 h2{
+    position: relative;
+    text-align: left;
+    margin-left: 60px;
+    font-size: 40px;
+}
+.Cap3{
+    width: 100%;
+    background: #00827f;
+    
+}
+.Cap3 h2{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0 1px 10px rgb(255,255,255,0.9);
+}
+.Cap4{
+    width: 100%;
+    background: #192b36;
+    height: 300px;
+}
+.Conclucion{
+    width: 100%;
+    background: #f3f6ee;
+    height: 300px;
+}
+.equipo{
+    width: 100%;
+    background: #00827f;
+}
+.equipo h2{
+    position: relative;
+    text-align: center;
+    margin-right: 60px;
+    font-size: 40px;
+    text-shadow: 0 1px 10px rgb(255,255,255,0.9);
+}
+
+/* ----------------------------------------------- Estilos ----------------------------------------------- */
+
+/* Objeto De Estudio */
+
+.ObjetoDeEstudio{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    width: 45%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+    background: #00827f;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    max-width: 600px;
+}
+
+/*Marco teorico*/
+
+.Marco-Teorico{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    width: 45%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    max-width: 600px;
+}
+
+/* Metodologia */
+
+.container{
+    width: 100%;
+    display: flex;
+    min-width: 900px;
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #192b36;
+    box-shadow: 0px 1px 10px rgb(0, 0, 0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    max-width: 500px;
+    margin-left: 25px;
+
+}
+.card:hover{
+    box-shadow: 0px 0px 50px rgb(255, 255, 255, 0.9);
+    transform: translateY(-3%);
+
+}
+.card .contenido h3{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.card .contenido p{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: white;
+    max-width: 350px;
+    text-align:justify;
+}
+.card img{
+    width: 95%;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+
+/*Equipo*/
+ 
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.cards .card{
+    background: #192b36;
+    display: flex;
+    width: 35%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+
+}
+
+.cards .card img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+    margin-top: -10px;
+}
+
+.cards .card > .contenido-texto-card{
+    margin-left: 20px;
+    width: 60%;
+    color: #fff;
+    max-width: 150px;
+}
+
+.cards .card > .contenido-texto-card p{
+    max-width: 215px;
+    font-weight: 300;
+    padding-top: 5px;
+}
+.cards .card:hover{
+    box-shadow: 0px 0px 50px rgb(255, 255, 255, 0.9);
+    transform: translateY(-3%);
+}
+.contenido-texto-card i{
+    color: #f3f6ee;
+    margin-left: 6px;
+}
+.contenido-texto-card #twitch:hover{
+    color: violet;
+    font-size: 22px;
+    transition: .3s;
+}
+.contenido-texto-card #youtube:hover{
+    color: red;
+    font-size: 22px;
+    transition: .3s;
+}
+.contenido-texto-card #github:hover{
+    color: black;
+    font-size: 22px;
+    transition: .3s;
+}
+.contenido-texto-card #twitter:hover{
+    color: skyblue;
+    font-size: 22px;
+    transition: .3s;
+}
+.contenido-texto-card #instagram:hover{
+    font-size: 22px;
+    transition: .3s;
+    color: blueviolet;
+}
